@@ -4,18 +4,24 @@ ul {
   padding: 0;
   overflow: hidden;
   background-color: #333;
+  width:100vw;
+box-shadow: 0 0 3px 3px white;
 }
 
 li {
   float: left;
+ width:15%;
+  margin-left:20px;
 }
 
 li a {
-  display:block;
+  display:inline-block;
   color: white;
   text-align:center;
-  padding: 30px 73px;
+  padding: 35px 35px;
   text-decoration: none;
+    width:10vw;
+     
 }
 
 /* Change the link color to #111 (black) on hover */
@@ -27,19 +33,34 @@ ul a:active {
   background-color: white;
   color: black;
   }
+div.sticky{
+  position: sticky;
+  top:0;
+
+}
 
 
 
-body {background: black;}
+body {
+background:linear-gradient(black, darkgrey);
+}
+
+div.refl{   color: rgba(255, 255, 255, 0);
+            -webkit-mask-image:linear-gradient(transparent 70%, white);
+            transform: rotatex(180deg) translatey(40px);
+            
+}
 
 h1{display:block;
 color:black;
 text-align:center;
 background-color:lightgrey;
+border:4px solid black;
 border-radius:4px;
 width:50%;
 height:auto;
-margin-left:300px;
+margin-left:auto;
+margin-right:auto;
 padding:5px;}
 
 
@@ -52,3 +73,24 @@ h3{color:white;
 display:block;
 text-align:center;
 padding:5px;}
+
+div.gallery{display:inline;
+            width:20%;
+            margin:275px;
+       
+}
+
+img {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 3px;
+  width: 150px;
+  height:auto;
+  margin-top:50px;
+  background-color:black;
+}
+
+
+img:hover {
+  box-shadow: 0 0 8px 8px white;
+  }
