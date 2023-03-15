@@ -60,20 +60,9 @@ width:50%;
 height:auto;
 margin-left:auto;
 margin-right:auto;
-padding:5px;}
-
-iframe {height:360px;
-width:640px;
-margin:auto;
-display:block;
-border: 8px solid white;
-margin-top:50px;
 padding:5px;
-  }
-  
-  div.desc{color: White;
-  text-align:center;
-  display:block;
-  padding:5px;
-  margin-top:25px;
- }
+margin-bottom:50px;}
+
+section{width:50%;
+margin-left:auto;
+margin-right:auto;}
