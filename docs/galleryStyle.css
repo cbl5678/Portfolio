@@ -1,18 +1,29 @@
 ul {
   list-style-type: none;
+<<<<<<< HEAD
+=======
+  margin: 0;
+>>>>>>> ac0ba15b6bd226375d1babff98e150854f80a06c
   padding: 0;
   overflow: hidden;
   background-color: #333;
   width:100vw;
 box-shadow: 0 0 3px 3px white;
+<<<<<<< HEAD
 margin-top:3px;
 margin-left:5px;
 margin-right:5px;
+=======
+>>>>>>> ac0ba15b6bd226375d1babff98e150854f80a06c
 }
 
 li {
   float: left;
+<<<<<<< HEAD
  width:15em;
+=======
+ width:15%;
+>>>>>>> ac0ba15b6bd226375d1babff98e150854f80a06c
   margin-left:20px;
 }
 
@@ -22,7 +33,11 @@ li a {
   text-align:center;
   padding: 35px 35px;
   text-decoration: none;
+<<<<<<< HEAD
     width:20vw;
+=======
+    width:10vw;
+>>>>>>> ac0ba15b6bd226375d1babff98e150854f80a06c
      
 }
 
@@ -38,7 +53,10 @@ ul a:active {
 div.sticky{
   position: sticky;
   top:0;
+<<<<<<< HEAD
   z-index:5;
+=======
+>>>>>>> ac0ba15b6bd226375d1babff98e150854f80a06c
 
 }
 
@@ -51,7 +69,11 @@ background:linear-gradient(black, darkgrey);
     }
 
 
+<<<<<<< HEAD
 section.photos h1{display:block;
+=======
+h1{display:block;
+>>>>>>> ac0ba15b6bd226375d1babff98e150854f80a06c
 color:black;
 text-align:center;
 background-color:lightgrey;
@@ -63,6 +85,7 @@ margin-left:auto;
 margin-right:auto;
 padding:5px;}
 
+<<<<<<< HEAD
 section.photos div.gallery{display:block;
   padding: 30px;
   float:left;
@@ -122,24 +145,37 @@ margin-right:auto;
 padding:5px;}
 
 section.animation div.gallery video.one {height:360px;
+=======
+div.gallery video.one {height:360px;
+>>>>>>> ac0ba15b6bd226375d1babff98e150854f80a06c
 width:640px;
 display:block;
 border: 8px solid white;
   margin:auto;
  margin-top:50px;
  padding:5px;
+<<<<<<< HEAD
 
   }
  
   
  section.animation div.desc1 {color: White;
+=======
+  }
+  
+  div.desc1 {color: White;
+>>>>>>> ac0ba15b6bd226375d1babff98e150854f80a06c
   text-align:center;
   display:block;
   padding:5px;
   margin-top:25px;
  }
  
+<<<<<<< HEAD
 section.animation div.gallery img.one{width:300px;
+=======
+div.gallery img.one{width:300px;
+>>>>>>> ac0ba15b6bd226375d1babff98e150854f80a06c
 height:500px;
 border: 8px solid white;
   border-radius: 4px;
@@ -150,7 +186,11 @@ border: 8px solid white;
  background:black;
 }
 
+<<<<<<< HEAD
 section.animation div.desc2 {color: White;
+=======
+div.desc2 {color: White;
+>>>>>>> ac0ba15b6bd226375d1babff98e150854f80a06c
   text-align:center;
   display:block;
   padding:5px;
