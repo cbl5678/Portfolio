@@ -1,142 +1,129 @@
 
-            title {border: 1px;
-            background-color: lightgrey;
-            color: white;
-            padding: 6px;
-            }
-          
+title {
+    border: 1px;
+    background-color: lightgrey;
+    color: white;
+    padding: 6px;
+}
+
 ul.nav {
-  list-style-type: none;
-  padding: 0;
-  overflow: hidden;
-  background-color: #333;
-  width:100vw;
-box-shadow: 0 0 3px 3px white;
-margin-top:3px;
-margin-left:5px;
-margin-right:5px;
+    list-style-type: none;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    width: 100vw;
+    box-shadow: 0 0 3px 3px white;
+    margin-top: 3px;
+    margin-left: 5px;
+    margin-right: 5px;
 }
 
 li.nav {
-  float: left;
- width:15em;
-  margin-left:20px;
+    float: left;
+    width: 15em;
+    margin-left: 20px;
 }
 
 li a {
-  display:inline-block;
-  color: white;
-  text-align:center;
-  padding: 35px 35px;
-  text-decoration: none;
-    width:20vw;
-     
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 35px 35px;
+    text-decoration: none;
+    width: 20vw;
+
 }
 
 /* Change the link color to #111 (black) on hover */
 li a:hover {
-  background-color: white;
-  color:black;
+    background-color: white;
+    color: black;
 }
 ul a:active {
-  background-color: white;
-  color: black;
-  }
-div.sticky{
-  position: sticky;
-  top:0;
-  z-index:5;
-  
+    background-color: white;
+    color: black;
+}
+div.sticky {
+    position: sticky;
+    top: 0;
+    z-index: 5;
+
 }
 
 
 
 
 body {
-background:linear-gradient(black, darkgrey);
+    background: linear-gradient(black, darkgrey);
 
-    }
-    
-h1.page{display:block;
-    color:white;
-    text-align:center;
-    background-color:black;
-    border:4px solid white;
-    border-radius:4px;
-    width:50%;
-    height:auto;
-    margin-top:50px;
-    margin-left:auto;
-    margin-right:auto;
-    padding:5px;}
-
-section.intro {background-color:black;
-                width:75%;
-                height:50em;
-                margin-left:auto;
-                margin-right:auto;
-                margin-top:50px;
-                border:3px solid white
-                }
-                
-section.left{float:left;
-                height:20em;
-                }
-                
-section.right{float:right;
-                height:20em;
-                }
-             
-h2{display:block;
-color:white;
-text-align:center;
-padding:5px;
-margin:25px;
-}      
-
-p.intro{display:block;
-color:white;
-text-align:center;
-padding:5px;
-margin-left:25px;
-margin-right:25px;
-border:1px solid white;}
-
-
-ul.text{float:right;
-
-width:40%;
-margin-left:auto;
-margin-right:auto;}
-
-li.text{color:white;
-width:50%;
-float:right;
-margin-right:75px;
 }
 
-img{display:block;
-float:left;
-width:440px;
-height:260px;
-width:40%;
-margin-left:auto;
-margin-right:auto;
-margin-left:75px;}
-
-p.info{display:block;
-color:white;
-text-align:center;
-padding:5px;
-margin-left:25px;
-margin-right:25px;
-border:1px solid white;
+h1.page {
+    display: block;
+    color: white;
+    text-align: center;
+    background-color: black;
+    border: 4px solid white;
+    border-radius: 4px;
+    width: 50%;
+    height: auto;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px;
 }
 
-Section.info{display:block;
-color:white;
-text-align:center;
-padding:5px;
-margin-left:25px;
-margin-right:25px;
-border:1px solid white;}
+
+section.block {
+    background-color: black;
+    width: 75%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    border: 3px solid white}
+
+h2 {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 5px;
+    margin: 25px;
+}
+
+p.intro {
+    width: 75%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    color: white;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+p.info {
+    width: 75%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    color: white;
+    text-align: center;
+    border: 3px solid white;
+}
+
+a.picture {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+img {
+    width: 730px;
+    height: 460px;
+}
+
+li.text {
+    color: white;
+}
