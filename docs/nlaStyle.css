@@ -11,26 +11,28 @@ ul.nav {
     padding: 0;
     overflow: hidden;
     background-color: #333;
-    width: 100vw;
+    width: 100%;
     box-shadow: 0 0 3px 3px white;
     margin-top: 3px;
-    margin-left: 5px;
-    margin-right: 5px;
+    
+    
 }
 
 li.nav {
-    float: left;
-    width: 15em;
-    margin-left: 20px;
+    display:inline-block;
+    width: 16%;
+    
 }
 
 li a {
     display: inline-block;
     color: white;
     text-align: center;
-    padding: 35px 35px;
+    padding: 30px 30px;
     text-decoration: none;
-    width: 20vw;
+    width:15vw;
+    margin-left:auto;
+    margin-right:auto;
 
 }
 
@@ -89,7 +91,36 @@ h2 {
     text-align: center;
     padding: 5px;
     margin: 25px;
+    border:3px solid white;
+    font-size:large;
 }
+
+h3{display: block;
+    color: white;
+    text-align: center;
+    padding: 5px;
+    margin: 25px;
+    border:3px solid white;
+    font-size:large;}
+    
+    h4{color:white;
+text-align:center;
+border:3px solid white;
+font-size:large;}
+
+h5{color:white;
+text-align:center;
+border:3px solid white;
+    font-size:large;
+
+}
+
+div.heading{width:10em;
+margin:auto;}
+
+p{color:white;
+text-align:center;
+font-size:medium;}
 
 p.intro {
     width: 75%;
@@ -103,7 +134,12 @@ p.intro {
 }
 
 p.info {
-    width: 75%;
+    color: white;
+    text-align: left;}
+   
+
+
+div.info{width: 75%;
     height: auto;
     margin-left: auto;
     margin-right: auto;
@@ -111,19 +147,25 @@ p.info {
     color: white;
     text-align: center;
     border: 3px solid white;
-}
-
-a.picture {
-    width: 50%;
-    margin-left: auto;
-    margin-right: auto;
-}
+    margin-bottom:30px;
+    padding:5px;}
 
 img {
     width: 730px;
     height: 460px;
+    display:block;
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    padding:10px;
+    border:3px solid white;
+    border-radius:3px;
 }
 
-li.text {
+
+figcaption { text-align:center;
     color: white;
+    margin-top:10px;
 }
+
+

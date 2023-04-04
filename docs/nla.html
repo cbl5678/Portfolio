@@ -17,35 +17,86 @@
         </div>
         <h1 class="page">Corpus Analysis</h1>
         <section class="block">
-            <h2> News VS Magazines from 1965-1975 </h2>
-            <p class="intro"> My analysis will be between some text files from the years 1965 through 1975. The
-                comparative element in this analysis will be that one set of files is from new
-                articles, and the other set of files is from magazines. I will be looking at
-                Keywords In Context, N-grams and clusters. To do so, i will use the two tools,
-                Antconc and Voyant. Below are my findings. </p> </section>
-            
-          
-                    
-                      <section class="block"> <a class="picture"> <img src="pictures/news_voyant_ss.png"
-                            alt="This is the main view of Voyant when viewing the news files."
-                            width="1080" height="1920" /></a>
-                    <a class="text"><ul class="text">
-                        <li class="text">Here is a screen capture of the main page on Voyant for the
-                            News articles.</li>
-                    </ul></a>
-              
-            
-                   
-                        <a class="picture"><img src="pictures/mag_voyant_ss.png"
-                            alt="This is the main view of Voyant when viewing the magazine files."
-                            width="1080" height="1920" /></a>
-                    <a class="text"><ul class="text">
-                        <li class="text">Here is a screen capture of the main page on Voyant for the
-                            Magazine articles.</li>
-                    </ul></a>
-            
-                <p class="info">From these two screencaptures one can tell what the most used words in each
-                    article are, the word count, and a view of the text itself.</p></section>
-        
+            <div class="heading">
+                <h2> News VS Magazines from 1965-1975 </h2>
+            </div>
+            <p class="intro"> My analysis will be between some text files from the years 1965
+                through 1975. The comparative element in this analysis will be that one set of files
+                is from new articles, and the other set of files is from magazines. I will be
+                looking at Keywords In Context, N-grams and clusters. To do so, i will use the two
+                tools, Antconc and Voyant. Below are my findings. </p>
+        </section>
+        <!--make a element into <figure> Remove the ul / li that's holding your caption, and change it to <figcaption>-->
+        <section class="block">
+            <div class="heading">
+                <h3>First Look</h3>
+            </div>
+            <figure class="picture">
+                <img src="pictures/news_voyant_ss.png"
+                    alt="This is the main view of Voyant when viewing the news files." width="1080"
+                    height="1920" />
+                <figcaption>Here is a screen capture of the main page on Voyant for the News
+                    articles.</figcaption></figure>
+            <figure><img src="pictures/mag_voyant_ss.png"
+                    alt="This is the main view of Voyant when viewing the magazine files."
+                    width="1080" height="1920" />
+                <figcaption>Here is a screen capture of the main page on Voyant for the Magazine
+                    articles.</figcaption>
+            </figure>
+            <div class="info">
+                <p>From these two screencaptures one can tell what the most used words in each
+                    article are, the word count, and a view of the text itself.</p>
+            </div>
+        </section>
+        <section class="block">
+            <div class="news">
+                <div class="heading">
+                    <h4>News Articles</h4>
+                </div>
+                <p><u><strong>Most Common Words</strong></u></p>
+                <figure class="picture">
+                    <img src="pictures/news_most_common.png"
+                        alt="A screenshot of Voyant Tools most common words for the news articles."
+                        width="1080" height="1920" />
+                    <figcaption>Screenshot of the "Most Common Words" from News
+                        articles.</figcaption>
+                </figure>
+                <div class="info">
+                    <p class="info">When looking at the screenshot above, from Voyant Tools, you
+                        will see the most common used words in COHA News articles from 1965-1975.
+                        When excluding words like "said" and "mr." the most common word in this file
+                        set is: </p>
+                    <p class="info">"President"</p>
+                    <p class="info">I believe, "President," is the most common word used because the
+                        News text files are either talking about or addresing the President.
+                        President's Johnson, Nixon, and Ford were the three active presidents during
+                        th etime period of 1965-1975.</p>
+                </div>
+                <p><u><strong>Key Words In Context(KWIC)</strong></u></p>
+                <figure class="picture">
+                    <img src="pictures/KWIC_news.png"
+                        alt="A screenshot of the KWIC of the word 'President.'" width="1920"
+                        height="1080" />
+                    <figcaption>Here is a screenshot of the KWIC page of the tool ANTCONC. The word searched for in this image is "President."</figcaption>                    
+                </figure>
+                <div class="info"> 
+                    <p class="info">From what one can tell from this image, is that these news articles talk about various President's from different organizations and President Johnson.</p>
+                </div>
+            </div>
+        </section>
+        <section class="block">
+            <div class="news">
+                <div class="heading">
+                    <h5>Magazine Articles</h5>
+                </div>
+                <p><u><strong>Most Common Words</strong></u></p>
+                <figure class="picture">
+                    <img src="pictures/most_used_words_magazine.png"
+                        alt="screenshot of the most common used words in the magazine articles."
+                        width="1080" height="1920" />
+                    <figcaption>"WORDS</figcaption>
+                </figure>
+            </div>
+        </section>
     </body>
 </html>

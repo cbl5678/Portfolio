@@ -6,32 +6,35 @@
             }
           
 ul {
-  list-style-type: none;
-  padding: 0;
-  overflow: hidden;
-  background-color: #333;
-  width:100vw;
-box-shadow: 0 0 3px 3px white;
-margin-top:3px;
-margin-left:5px;
-margin-right:5px;
+    list-style-type: none;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    width: 100%;
+    box-shadow: 0 0 3px 3px white;
+    margin-top: 3px;
+    
+    
 }
 
 li {
-  float: left;
- width:15em;
-  margin-left:20px;
+    display:inline-block;
+    width: 16%;
+    
 }
 
 li a {
-  display:inline-block;
-  color: white;
-  text-align:center;
-  padding: 35px 35px;
-  text-decoration: none;
-    width:20vw;
-     
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 30px 30px;
+    text-decoration: none;
+    width:15vw;
+    margin-left:auto;
+    margin-right:auto;
+
 }
+
 
 /* Change the link color to #111 (black) on hover */
 li a:hover {
