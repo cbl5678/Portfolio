@@ -31,18 +31,22 @@
             <div class="heading">
                 <h3>First Look</h3>
             </div>
-            <figure class="picture">
-                <img src="pictures/news_voyant_ss.png"
-                    alt="This is the main view of Voyant when viewing the news files." width="1080"
-                    height="1920" />
-                <figcaption>Here is a screen capture of the main page on Voyant for the News
-                    articles.</figcaption></figure>
-            <figure><img src="pictures/mag_voyant_ss.png"
-                    alt="This is the main view of Voyant when viewing the magazine files."
-                    width="1080" height="1920" />
-                <figcaption>Here is a screen capture of the main page on Voyant for the Magazine
-                    articles.</figcaption>
-            </figure>
+            <div class="row">
+                <div class="column">
+                    <figure class="picture">
+                        <img src="pictures/news_voyant_ss.png"
+                            alt="This is the main view of Voyant when viewing the news files." />
+                        <figcaption>Here is a screen capture of the main page on Voyant for the News
+                            articles.</figcaption></figure>
+                </div>
+                <div class="column">
+                    <figure><img src="pictures/mag_voyant_ss.png"
+                            alt="This is the main view of Voyant when viewing the magazine files." />
+                        <figcaption>Here is a screen capture of the main page on Voyant for the
+                            Magazine articles.</figcaption>
+                    </figure>
+                </div>
+            </div>
             <div class="info">
                 <p>From these two screencaptures one can tell what the most used words in each
                     article are, the word count, and a view of the text itself.</p>
@@ -56,10 +60,9 @@
                 <p><u><strong>Most Common Words</strong></u></p>
                 <figure class="picture">
                     <img src="pictures/news_most_common.png"
-                        alt="A screenshot of Voyant Tools most common words for the news articles."
-                        width="1080" height="1920" />
-                    <figcaption>Screenshot of the "Most Common Words" from News
-                        articles.</figcaption>
+                        alt="A screenshot of Voyant Tools most common words for the news articles." />
+                    <figcaption>Screenshot of the "Most Common Words" from News articles from 1965
+                        to 1975.</figcaption>
                 </figure>
                 <div class="info">
                     <p class="info">When looking at the screenshot above, from Voyant Tools, you
@@ -70,17 +73,54 @@
                     <p class="info">I believe, "President," is the most common word used because the
                         News text files are either talking about or addresing the President.
                         President's Johnson, Nixon, and Ford were the three active presidents during
-                        th etime period of 1965-1975.</p>
+                        the time period of 1965-1975.</p>
                 </div>
                 <p><u><strong>Key Words In Context(KWIC)</strong></u></p>
                 <figure class="picture">
                     <img src="pictures/KWIC_news.png"
-                        alt="A screenshot of the KWIC of the word 'President.'" width="1920"
-                        height="1080" />
-                    <figcaption>Here is a screenshot of the KWIC page of the tool ANTCONC. The word searched for in this image is "President."</figcaption>                    
+                        alt="A screenshot of the KWIC of the word 'President.'" />
+                    <figcaption>Here is a screenshot of the KWIC page of the tool ANTCONC. The word
+                        searched for in this image is "President."</figcaption>
                 </figure>
-                <div class="info"> 
-                    <p class="info">From what one can tell from this image, is that these news articles talk about various President's from different organizations and President Johnson.</p>
+                <div class="info">
+                    <p class="info">When scoping for the context of these keywords and my set of
+                        text files, it is best to scope anywhere from 5-8 words on each side of the
+                        word in context. When I went lower than 5, it wasnt really enough context to
+                        help determine what thes texts are trying to tell me. When going above 8,
+                        there were minimal hits.</p>
+                    <p class="info">From what one can tell from this image, is that these news
+                        articles talk about various President's from different organizations,
+                        President Johnson, and President Nixon. Vietnam is briefley mentioned. The
+                        president of Egypt at the time, Gamal Nasser, is also mentioned due to the
+                        time period of these files being around two separate Arab-Israeli wars. This
+                        particular text file talking about Nasser was from the "6 Days of War" in
+                        1967.</p>
+                </div>
+                <p><u><strong>N-Gram</strong></u></p>
+                <div class="row">
+                    <div class="3">
+                        <figure class="picture"><img class="ngram" src="pictures/3ngram_news.png"
+                                alt="screnshot of 3 N-Gram in ANTCONC" />
+                            <figcaption>Screenshot of the 3 N-Gram view in
+                            ANTCONC</figcaption></figure>
+                    </div>
+                    <div class="3">
+                        <figure class="picture"><img class="ngram" src="pictures/4ngram_news.png"
+                                alt="screenshot of 4 N-Gram in ANTCONC" /><figcaption>Screenshot of
+                                the 4 N-Gram view in ANTCONC</figcaption></figure>
+                    </div>
+                    <div class="three">
+                        <figure class="picture"><img class="ngram" src="pictures/5ngram_news.png"
+                                alt="screenshot of 5 N-Gram in ANTCONC" /><figcaption>Screenshot of
+                                the 5 N-Gram view in ANTCONC</figcaption></figure>
+                    </div>
+                </div>
+                <div class="info">
+                    <p class="info">For the news articles, I used N-Gram clusters of 3, 4, and 5
+                        words. This range had given me the best results. As one could assume,
+                        especially around this time period, the news was full of politics. With
+                        clusters talking about city and state level politics as well as presidential
+                        politics. </p>
                 </div>
             </div>
         </section>
@@ -92,10 +132,89 @@
                 <p><u><strong>Most Common Words</strong></u></p>
                 <figure class="picture">
                     <img src="pictures/most_used_words_magazine.png"
-                        alt="screenshot of the most common used words in the magazine articles."
-                        width="1080" height="1920" />
-                    <figcaption>"WORDS</figcaption>
+                        alt="screenshot of the most common used words in the magazine articles." />
+                    <figcaption>Screenshot of the "Most Common Words" in magazine articles from 1965
+                        to 1975. </figcaption>
                 </figure>
+            </div>
+            <div class="info">
+                <p class="info">In this screenshot you will seee the "most common words" in a COHA
+                    set of news articles ranging in the years of 1965 to 1975. The most common word
+                    of these text files is "said." This is a filler word in my opinin and has no
+                    true significance so the next most common word that is significant is
+                    "People."</p>
+            </div>
+            <p><u><strong>Key Words In Context(KWIC)</strong></u></p>
+            <div class="row">
+                <div class="column">
+                    <figure class="pic"><img src="pictures/mag_KWIC_people.png"
+                            alt="screnshot of the KWIC of the word 'people'" />
+                        <figcaption>Screenshot of the KWIC of the word
+                        'People.'</figcaption></figure>
+                </div>
+                <div class="column">
+                    <figure class="pic"><img src="pictures/mag_KWIC_president.png"
+                            alt="screenshot of KWIC of the word President." /><figcaption>Screenshot
+                            of the KWIC for the word 'President.'</figcaption></figure>
+                </div>
+            </div>
+            <div class="info">
+                <p class="info">The magazine files, like stated previously, is 'People.' The
+                    screenshot to the left here shows the KWIC for the word 'People.' Although the
+                    news files most common word is 'President,' the magazine files
+                        <strong>SECOND</strong> most common word is 'President.'</p>
+            </div>
+            <p><u><strong>N-Gram</strong></u></p>
+            <div class="info">
+                <p class="info">Instead of using 3, 4, 5 N-Grams like I did for the news articles, I
+                    did N-Gram clusters of 4, 5, and 6. This was because the results of 2 N-Grams
+                    was not very adequate.</p>
+            </div>
+            <div class="row">
+                <div class="3">
+                    <figure class="picture"><img class="ngram" src="pictures/4ngram_mag.png"
+                            alt="screnshot of 4 N-Gram in ANTCONC" />
+                        <figcaption>Screenshot of the 4 N-Gram view in ANTCONC</figcaption></figure>
+                </div>
+                <div class="3">
+                    <figure class="picture"><img class="ngram" src="pictures/5ngram_mag.png"
+                            alt="screenshot of 5 N-Gram in ANTCONC" /><figcaption>Screenshot of the
+                            5 N-Gram view in ANTCONC</figcaption></figure>
+                </div>
+                <div class="three">
+                    <figure class="picture"><img class="ngram" src="pictures/6ngram_mag.png"
+                            alt="screenshot of 6 N-Gram in ANTCONC" /><figcaption>Screenshot of the
+                            6 N-Gram view in ANTCONC</figcaption></figure>
+                </div>
+            </div>
+            <div class="info">
+                <p class="info">Due to the nature of magazine articles, my results were slightly
+                    different on this N-Gram pull. Although the magazine articles still had some
+                    politics within, it still had some text involving information from what seems to
+                    may have been interviews.</p>
+            </div>
+        </section>
+        <section class="block">
+            <div class="news">
+                <div class="heading">
+                    <h5>Conclusions</h5>
+                </div>
+                <div class="info">
+                    <p class="info">Before scoping through these text files, I truthfully expected
+                        them to be political. This was because of the time period. Yes I was right
+                        about the politics, but I learned much more about these text files after
+                        scoping them.</p>
+                    <p class="info">The News talked about events happening around the world and how
+                        it was being dealt with. Like the mentionings of all the US presidents and
+                        even the President of Egypt at the time.</p>
+                    <p class="info">The magazines seemed to have more interview based content. A lot
+                        of what I read during the KWIC scoping was that it was made up of alot of
+                        dialogue.</p>
+                    <p class="info">Although these groups of text files are different, when using
+                        NLA and the right tools, one can find that there is alot more to a set of
+                        text than one may originally percieve. These tools allow deep searches of
+                        text with the use of context.</p>
+                </div>
             </div>
         </section>
     </body>
