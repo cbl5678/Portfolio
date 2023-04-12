@@ -6,7 +6,8 @@ title {
     padding: 6px;
 }
 
-ul.nav {
+
+ul {
     list-style-type: none;
     padding: 0;
     overflow: hidden;
@@ -18,9 +19,9 @@ ul.nav {
     
 }
 
-li.nav {
+li {
     display:inline-block;
-    width: 16%;
+    width: 13%;
     
 }
 
@@ -30,37 +31,38 @@ li a {
     text-align: center;
     padding: 30px 30px;
     text-decoration: none;
-    width:15vw;
-    margin-left:auto;
-    margin-right:auto;
+    width:8vw;
+    margin-top:auto;
+    margin-bottom:auto;
+    margin-left:50px;
+    margin-right:50px;
 
 }
+
+     
+
 
 /* Change the link color to #111 (black) on hover */
 li a:hover {
-    background-color: white;
-    color: black;
+  background-color: white;
+  color:black;
 }
 ul a:active {
-    background-color: white;
-    color: black;
-}
-div.sticky {
-    position: sticky;
-    top: 0;
-    z-index: 5;
+  background-color: white;
+  color: black;
+  }
+div.sticky{
+  position: sticky;
+  top:0;
+  z-index:5;
 
 }
-
 
 
 
 body {
-    background: linear-gradient(black, darkgrey);
-    width:100%;
-
+background:linear-gradient(black, darkgrey);
 }
-
 h1.page {
     display: block;
     color: white;

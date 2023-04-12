@@ -1,4 +1,13 @@
-ul.navbar {
+
+title {
+    border: 1px;
+    background-color: lightgrey;
+    color: white;
+    padding: 6px;
+}
+
+
+ul.nav {
     list-style-type: none;
     padding: 0;
     overflow: hidden;
@@ -12,34 +21,40 @@ ul.navbar {
 
 li.nav {
     display:inline-block;
-    width: 16%;
+    width: 13%;
     
 }
 
-li.nav a {
+li a.nav {
     display: inline-block;
     color: white;
     text-align: center;
     padding: 30px 30px;
     text-decoration: none;
-    width:15vw;
-    margin-left:auto;
-    margin-right:auto;
+    width:8vw;
+    margin-top:auto;
+    margin-bottom:auto;
+    margin-left:50px;
+    margin-right:50px;
 
 }
 
+     
+
+
 /* Change the link color to #111 (black) on hover */
-li.nav a:hover {
+li a:hover {
   background-color: white;
   color:black;
 }
-ul.navbar a:active {
+ul a:active {
   background-color: white;
   color: black;
   }
 div.sticky{
   position: sticky;
   top:0;
+  z-index:5;
 
 }
 
@@ -47,7 +62,6 @@ div.sticky{
 
 body {
 background:linear-gradient(black, darkgrey);
-
 }
 
 h1.page{display:block;
